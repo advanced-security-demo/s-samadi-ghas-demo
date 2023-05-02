@@ -1,4 +1,4 @@
-name: "Dismiss Alerts Test" 
+name: "Notification Test" 
 
 on:
   push:
