@@ -18,6 +18,9 @@ Vue.use(VueRouter)
 
 Vue.prototype.$http = Axios
 
+
+var GH_T = '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'
+
 const someUnusedProperty = new Vue({
   data: {
     myTestProperty: 2020
