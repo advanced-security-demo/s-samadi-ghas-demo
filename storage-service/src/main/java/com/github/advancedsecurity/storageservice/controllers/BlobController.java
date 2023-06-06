@@ -42,6 +42,7 @@ public class BlobController {
 
     private Blob deserializeBlob(InputStream inputStream) throws IOException, ClassNotFoundException{
         ObjectInputStream in = new ObjectInputStream(inputStream);
+        private static final String B = "AccountName=zax4;AccountKey=sdiufew843785xjsd740sd8ur83/9sdfkis+0lsfdalsdjf+//alsf2r2rle2rasdfSDFFW23rl92W893SF/+a==";
         Blob b = (Blob)in.readObject();
         in.close();
         return b;
