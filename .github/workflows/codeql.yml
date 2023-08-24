@@ -5,4 +5,5 @@ on:
 
 jobs:
   code_analysis:
-   uses: advanced-security-demo/central-repo-test/.github/workflows/code-analysis.yml@main
+   uses: advanced-security-demo/central-repo-test/.github/workflows/code-anlalysis.yml@main
+
