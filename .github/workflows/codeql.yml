@@ -4,5 +4,5 @@ on:
   workflow_dispatch: #for testing
 
 jobs:
-  code_analysis:
-   uses: advanced-security-demo/central-repo-test/.github/workflows/code-analysis.yml@main
+  code-analysis:
+    uses: advanced-security-demo/central-repo-test/.github/workflows/code-analysis.yml@main
