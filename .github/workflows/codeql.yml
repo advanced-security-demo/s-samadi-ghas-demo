@@ -5,4 +5,4 @@ on:
 
 jobs:
   code-analysis:
-    uses: mbaluda-org/security_team/.github/workflows/code_analysis.yml@main
+    uses: advanced-security-demo/central-repo-test/.github/workflows/code-analysis.yml@main
